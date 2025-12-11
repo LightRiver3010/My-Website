@@ -33,7 +33,7 @@ body {
 #headshot {
     aspect-ratio: 1/1;
     border-radius: 30px;
-    max-width: 300px;
+    max-width: 350px;
     height: 100%;
     width: auto;
     border: 5px solid lavender;
@@ -73,26 +73,26 @@ body {
 .most-proud {
     display: flex;
     flex-direction: column;
-    max-height: 300px;
+    max-height: 45vh;
     height: 100%;
     background-color: green;
+    padding-top: 5px;
 }
 
 .proud-title {
     display: flex;
     justify-content: center;
-    font-size: 4vw;
+    align-items: center;
+    font-size: 3vw;
     font-weight: bold;
     width: 100%;
     height: 10vh;
-    background-color: grey;
 }
 
 .proud-boxes {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: blue;
     justify-content: space-around;
 }
 
@@ -107,16 +107,125 @@ body {
 }
 
 .proud-box img {
-    max-width: 4vw;
-    aspect-ratio: 1/1;
+    margin-top: 1vh;
+    max-width: 15vw;
+    aspect-ratio: 4/3;
+    border-radius: 30px;
 }
 
 .proud-box-title {
     font-weight: 900;
-    font-size: 3vw;
+    text-decoration: underline;
+    font-size: 2vw;
 }
 
 .proud-box-desc {
     font-weight: 600;
     font-size: 1vw;
 }
+
+/* BELOW MOST PROUD OF SECTION */
+
+.below-proud {
+    display: flex;
+    flex-direction: row;
+    max-height: 30vh;
+    height: 100%;
+    background-color: red;
+}
+
+/* OTHER WORKS */
+.other-works {
+    display: flex;
+    flex-direction: row;
+    width: 66%;
+    height: 100%;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+}
+
+.other-works-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+/* CLASSWORK */
+.works-classwork {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-height: 25vh;
+    height: 100%;
+    background-color: brown;
+}
+
+.works-classwork-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75vw;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.other-works li {
+    color: navy;
+    margin-top: 1vh;
+}
+
+/* PROJECTS */
+.works-projects {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-height: 25vh;
+    height: 100%;
+    background-color:cadetblue;
+}
+
+.works-projects-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75vw;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+/* MY SKILLS */
+
+.my-skills {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    max-height: 35vh;
+    height: 100%;
+    background-color:blueviolet;
+    justify-content: flex-start;
+}
+
+.my-skills-title {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    background-color: grey;
+    font-weight: bold;
+}
+
+.my-skills-list {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: azure;
+    height: 100%;
+}
+
+.my-skills-list li {
+    width: 50%;
+    font-size: 2vw;
+}
+
