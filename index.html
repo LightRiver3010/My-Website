@@ -7,9 +7,191 @@
   <meta name="description" content="Jimmy Savaryn's Portfolio">
   <link rel="icon" href="assets\big poo.png">
   <link rel="stylesheet" href="universal_styles.css">
+  <script src="universal_scripts.js" defer></script>
 </head>
 <body>
-    <img src="assets/under-construction-sign-vec.jpg" style="max-width: 20%; height: auto;">
-    <h1>Currently Under Construction; come back later!</h1>
+  <div class="main-body">
+    <div class="headshot">
+      <img src="assets\nice headshot (in tree).jpg" 
+      alt="A blonde teenager sitting inside a tree. Wait, that's me!">
+      <div class="below-headshot">
+        <div class="resume">
+          <span id="header-text">MY PORTFOLIO</span>
+          <p style="font-size: 1.2vw;"><a href="assets\Resume.pdf" target="_blank">My Resume</a></p>
+          <p style="font-style: italic; font-size: 1.2vw;">For a more official look...</p>
+        </div>
+        <span id="socials">MY SOCIALS</span>
+        <div class="socials-box">
+          <a href="https://github.com/LightRiver3010" target="_blank" class="social">GitHub</a>
+          <a href="https://www.linkedin.com/in/jsavaryn/" target="_blank" class="social">LinkedIn</a>
+          <a href="mailto:james.savaryn@gmail.com" class="social">Email Me!</a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="rest">
+      <div class="most-proud">
+        <div class="proud-title">
+          WHAT I'M MOST PROUD OF:
+        </div>
+        <div class="proud-boxes">
+          <div class="proud-box" id="proud-box1">
+            <div class="proud-box-title">
+              <a href="https://github.com/LightRiver3010/PokeMATES" target="_blank">PokeMATES</a>
+            </div>
+            <a href="https://github.com/LightRiver3010/PokeMATES" target="_blank">
+              <img id="proud-image1" src="assets/essentials.webp" class="dulled">
+            </a>
+            <div class="proud-hover-box">
+              <h6>PokeMATES</h6>
+              <span style="font-style: italic; font-size: 1.1vw;">Game Developer</span>
+              <ul>
+                <li style="margin-top: 0.5vw;">Developed full length (10+ hours) game</li>
+                <li>Worked with a team using GitHub version control</li>
+                <li>Planned project creation multiple months in advance</li>
+                <li>Coordinated with team to divide work evenly</li>
+                <li style="margin-bottom: 1vw;">Learned Ruby & RPGMaker XP to complete project</li>
+              </ul>
+            </div>            
+            <div class="proud-box-desc">
+              The full-length Pokemon game!
+            </div>
+          </div>
+
+          <div class="proud-box" id="proud-box2">
+            <div class="proud-box-title">
+              <a href="https://umass.food/" target="_blank">UMass Wrapped</a>
+            </div>
+            <a href="https://umass.food/" target="_blank">
+              <img id="proud-image2" src="assets/meal plan wrapped.png" class="dulled">
+            </a>
+            <div class="proud-hover-box">
+              <h6>UMass Wrapped</h6>
+              <span style="font-style: italic; font-size: 1.1vw;">Backend Data Analyst</span>
+              <ul>
+                <li style="margin-top: 0.5vw;">Developed a website to track student meal plans for HackUMass XIII</li>
+                <li>Downloaded meal data as HTML; converted to Python using Beautiful Soup</li>
+                <li>Extracted meal plan statistics & figures using Pandas</li>
+                <li>Worked with a team in a high-stress environment to finish project on time</li>
+                <li style="margin-bottom: 1vw;">Raised awareness of the high costs of student meal plans</li>
+              </ul>
+            </div>            
+            <div class="proud-box-desc">
+              Spotify Wrapped for UMass Dining
+            </div>
+          </div>
+
+          <div class="proud-box" id="proud-box2">
+            <div class="proud-box-title">
+              <a href="https://game.savaryn.me/" target="_blank">Code Clicker</a>
+            </div>
+            <a href="https://game.savaryn.me/" target="_blank">
+              <img id="proud-image3" src="assets/border.jpg" class="dulled">
+            </a>
+            <div class="proud-hover-box">
+              <h6>Code Clicker</h6>
+              <span style="font-style: italic; font-size: 1.1vw;">Web-based Game Developer</span>
+              <ul>
+                <li style="margin-top: 0.5vw;">Developed live, full length (2+ hours) Clicker-type game</li>
+                <li>Added features such as auto-save, music, sound effects, custom art, importing/exporting data, and more</li>
+                <li>Hosted project online <a href="https://game.savaryn.me" target="_blank">(game.savaryn.me)</a>, allowing for easy player access</li>
+                <li style="margin-bottom: 1vw;">Independently learned all HTML, CSS, and JavaScript necessary to create and host game</li>
+              </ul>
+            </div>            
+            <div class="proud-box-desc">
+              Cookie Clicker but for Code
+            </div>
+        </div>
+      </div>
+      <div class="below-proud">
+        <div class="other-works">
+          <div class="other-works-title">
+            OTHER WORKS
+          </div>
+          <div class="works-classwork">
+            <div class="works-classwork-title">
+              Classwork
+            </div>
+            <ul class="classwork-list">
+
+              <li class="works-item">Linked List In-place Sorting
+                <div class="works-hover-box">
+                  <p>(CICS 160) [Python] Utillized linked lists to sort a timeline of events in order, in-place, using insertion sort.</p>
+                </div>
+              </li>
+              <li class="works-item">Unittest-ing
+                <div class="works-hover-box">
+                  <p>(CICS 160) [Python] Utilized the Unittest package to write my own test cases (many, many test cases)</p>
+                </div>
+              </li>
+              <li class="works-item">JUnit testing
+                <div class="works-hover-box">
+                  <p>(CICS 160) [Java] Utilized the JUnit package to write out test cases for simple functions</p>
+                </div>
+              </li>
+              <li class="works-item">MLB/Student Depression Data Analyses
+                <div class="works-hover-box">
+                  <p>(Introduction to Data Science) [Python] Utilized pandas, Tableau, and R to ask and answer questions about Kaggle datasets</p>
+                </div>
+              </li>
+              <li class="works-item">RPG Terminal Game
+                <div class="works-hover-box">
+                  <p>(CICS 160) [Java] Utilized OOP to create classes for Monsters to fight, including difficulty levels and 'Undo' feature (using stacks)</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="works-projects">
+            <div class="works-projects-title">
+              Personal Projects
+            </div>
+            <ul class="personal-list">
+              <li class="projects-item">My Portfolio Website!
+                <div class="projects-hover-box">
+                  <p>[HTML, CSS, JavaScript] Created my own Portfolio Website to display my CS experience. (wait, that's this website!)</p>
+                </div>
+              </li>
+              <li class="projects-item">Counter Bot
+                <div class="projects-hover-box">
+                  <p>[Python] Created a Discord Bot from scratch utilizing the Discord.py package & documentation for development and Discord's Developer Portal for successful deployment across multiple Discord servers.</p>
+                </div>
+              </li>
+              <li class="projects-item">PokeMATES
+                <div class="projects-hover-box">
+                  <p>[Ruby] Created a full-length Pokemon game for a Senior Capstone Project; used Ruby and RPG Maker XP for the base, utilizing Git and GitHub to transfer work with two partners.</p>
+                </div>
+              </li>
+              <li class="projects-item">Code Clicker
+                <div class="projects-hover-box">
+                  <p>[HTML, CSS, JavaScript] Created a full-length Clicker-type game, completely independently of coursework, using online resources to learn how to code and host the project live.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="my-skills">
+          <div class="my-skills-title">
+            MY SKILLS
+          </div>
+          <ul class="my-skills-list">
+            <li>Python</li>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>Beautiful Soup</li>
+            <li>Pygame</li>
+            <li>R</li>
+            <li>Java</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Tableau</li>
+            <li>Excel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
