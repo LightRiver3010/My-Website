@@ -328,6 +328,10 @@ body {
     width: 100%;
 }
 
+.personal-list li a {
+    color: cornflowerblue;
+}
+
 .works-projects-title {
     display: flex;
     justify-content: center;
